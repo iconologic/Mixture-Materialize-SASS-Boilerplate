@@ -20,7 +20,6 @@
     ],
     "preprocessorScriptOutput": "assets/js",
     "preprocessorStyleOutput": "assets/css",
-    "sass": null,
     "projectDescription": "Heroes Charge",
     "projectName": "Heroes Charge",
     "publishedId": null,
@@ -36,6 +35,13 @@
     "templateDirectory": "templates",
     "type": "mixture",
     "useCompass": true,
+    "sass": {
+      "outputStyle": "nested",
+      "sourceMap": false,
+      "lineNumbers": false,
+      "useLibSass": true,
+      "debugInfo": false
+    },
     "convertHtml": {
         "extension": ".html",
         "path": null,
